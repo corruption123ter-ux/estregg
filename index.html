@@ -14,20 +14,21 @@
       "@type": "SoftwareApplication",
       "name": "estregg",
       "applicationCategory": "GameApplication",
-      "operatingSystem": "Terminal / Console (Linux, macOS, Windows)",
-      "downloadUrl": "https://github.com",
+      "operatingSystem": "Terminal / Console (Linux, macOS, Windows, Termux)",
+      "downloadUrl": "https://github.com/corruption123ter-ux/estregg-ybj",
       "author": {
         "@type": "Person",
         "name": "corruption123ter-ux",
-        "url": "https://github.com"
+        "url": "https://github.com/corruption123ter-ux/estregg-ybj"
       },
-      "description": "A terminal-based galaxy exploration simulator featuring real space physics, dynamic black holes, and Keyboard controller support built natively in Python curses."
+      "description": "A terminal-based galaxy exploration simulator featuring real space physics, dynamic black holes, 100 deep-space level systems, secret command console inputs, and keyboard navigation built natively in Python curses."
     }
     </script>
 
     <style>
         body { background-color: #050505; color: #00ff00; font-family: 'Courier New', Courier, monospace; padding: 40px; max-width: 800px; margin: 0 auto; line-height: 1.6; }
         h1 { font-size: 3.5rem; text-shadow: 0 0 10px #00ff00; text-align: center; margin-bottom: 5px; }
+        .version-badge { text-align: center; color: #ff00ff; font-weight: bold; margin-bottom: 10px; text-shadow: 0 0 5px #ff00ff; }
         .subtitle { text-align: center; color: #88ff88; font-style: italic; margin-bottom: 40px; }
         .box { border: 2px solid #00ff00; padding: 20px; background-color: #001100; box-shadow: 0 0 15px rgba(0, 255, 0, 0.2); margin-bottom: 30px; }
         h2 { border-bottom: 1px dashed #00ff00; padding-bottom: 5px; color: #fff; }
@@ -41,28 +42,33 @@
 <body>
 
     <h1>ESTREGG</h1>
+    <div class="version-badge">[ v1.1.8 - Update Released ]</div>
     <div class="subtitle">A Terminal Space Simulation Odyssey by YB_Jeorgie</div>
 
     <div class="box">
         <h2>About the Game</h2>
-        <p><strong>estregg</strong> is a specialized ASCII terminal game designed for console environments. Pilot your rocket through generated starfields, track down uncharted planets, manipulate space physics engine portals, and interface hardware controllers directly using EVDEV pipelines.</p>
+        <p><strong>estregg</strong> is an open-source terminal ASCII game designed for Python Curses console environments. Pilot your rocket through 100 generated starfields, track down uncharted planets, navigate black holes, deploy secret command sequences, and inspect celestial star masses across Linux, macOS, Windows, and Termux environments.</p>
     </div>
 
     <div class="box">
-        <h2>Features</h2>
+        <h2>Features & v1.1.8 Core Updates</h2>
         <ul>
-            <li><strong>Dynamic Galaxy Sectors:</strong> Procedurally generated starfields and multi-classification star data engine profiles.</li>
-            <li><strong>Orbital Mechanics:</strong> Active pull and push physics loops powered by Sagittarius A* Black Hole and Polaris Emitters.</li>
-            <li><strong>Hybrid Control Layout:</strong> Fully maps inputs across standard PC Keyboard loops and made with Python Curses.</li>
-            <li><strong>Retro Animation Engines:</strong> Complex terminal wrapper routines including wormhole transit event triggers.</li>
+            <li><strong>100 Planetary Levels:</strong> Traverse through 100 unique star systems complete with dynamic warp portals and victory sequences.</li>
+            <li><strong>Secret Terminal Engine (Ctrl + E):</strong> In-game secret command prompt supporting cheat parameters, warp calls, and dev commands.</li>
+            <li><strong>Star Scanner Integration (R / R3):</strong> Real-time stellar mass, solar radius, and star classification telemetry panel overlay.</li>
+            <li><strong>ASCII Art & Banner Alignment:</strong> Refactored title text rendering routines across custom terminal font engines.</li>
+            <li><strong>Orbital & Black Hole Physics:</strong> Dynamic gravity loops, wormholes, and black hole event horizons built into the Python Curses game core.</li>
+            <li><strong>Saved Progress & Telemetry (V / P / Ctrl + S):</strong> In-game progress saving, settings configuration, and quick-save state handlers.</li>
         </ul>
     </div>
 
     <div class="box">
         <h2>How to Install & Run</h2>
-        <p>Ensure you have Python 3 and its developmental components installed on Linux, Windows, or macOS. Run the application directly from your shell layout:</p>
-        <pre>sudo apt update<br>sudo apt install -y python3 python3-pip pipx<br>pipx ensurepath</pre>
-        <p>For More Information, Please press Green Button Titled: "Go To Estregg-ybj Repo" </p>
+        <p>Ensure you have <code>pipx</code> set up on your machine, then install and launch directly from your terminal:</p>
+        <pre>pipx install estregg-ybj<br>estregg</pre>
+        <p>To upgrade an existing installation to v1.1.8:</p>
+        <pre>pipx upgrade estregg-ybj</pre>
+        <p>For complete installation options (including Docker and Termux setup), click the button below:</p>
     </div>
 
     <a href="https://github.com/corruption123ter-ux/estregg-ybj" class="btn">Go To Estregg-ybj Repo</a>
